@@ -19,7 +19,7 @@ class Typeflows : Builder<TypeflowsGitHubRepo> {
                     Cron.of("0 08 * * 1"),
                     RunCommand("./gradlew check"),
                     "master",
-                    "master",
+                    "auto-upgrade",
                     JAVA_VERSION
                 ).build()
             )
