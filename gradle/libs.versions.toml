@@ -22,6 +22,6 @@ typeflows-github-marketplace = { module = "io.typeflows:typeflows-github-marketp
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 typeflows = { id = "io.typeflows", version.ref = "typeflows" }
-verify = { id = "org.http4k.verify", version.ref = "http4k" }
+verify = "org.http4k.verify:6.61.0.0"
 versionCatalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "version-catalog-update" }
 versions = { id = "io.github.ben-manes.versions", version.ref = "versions" }
