@@ -7,6 +7,7 @@ pluginManagement {
             }
             url = uri("https://maven.http4k.org")
         }
+        mavenCentral()
         gradlePluginPortal()
     }
 }
